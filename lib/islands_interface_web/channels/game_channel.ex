@@ -1,7 +1,7 @@
 defmodule IslandsInterfaceWeb.GameChannel do
   use IslandsInterfaceWeb, :channel
 
-  alias IslandsEngine.{Game, Supervisor}
+  alias IslandsEngine.{Game, GameSupervisor}
 
   def channel do
     quote do
